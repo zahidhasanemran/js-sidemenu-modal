@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Modal and Sidemenu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <img src="https:/randomuser.me/api/portraits/men/52.jpg" alt="user">
+        </div>
+        <ul><li><a href="#">Home</a></li></ul>
+        <ul><li><a href="#">Portfolio</a></li></ul>
+        <ul><li><a href="#">Blog</a></li></ul>
+        <ul><li><a href="#">Contact Me</a></li></ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+        <h1>Best Islamic Online School</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quidem, cumque enim quibusdam error ipsam.</p>
+
+        <button class="cta-btn" id="open">Register</button>
+    </header>
+
+    <div class="container">
+        <h2>What is this Online scholl about?</h2>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quas laborum, veritatis sint expedita quos architecto obcaecati vitae nisi asperiores, iusto doloremque exercitationem? Molestiae architecto voluptates voluptas eveniet fuga corporis.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque illo doloremque aliquam quidem porro similique deleniti eos, iure assumenda est.</p>
+
+
+        <h2>Tell me more</h2>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident expedita inventore nemo vel ut a consectetur vero error, id ullam culpa nulla perferendis quaerat optio porro mollitia quae obcaecati veritatis dolor debitis laborum? Deleniti sint quidem laborum voluptas non voluptatem?</p>
+
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+            <li>Tailored Custom Content</li>
+        </ul>
+
+    </div>
+
+
+    <!-- modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <form class="modal-form" action="">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" autocomplete>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" autocomplete>
+                    </div>
+                    <div>
+                        <label for="password2">Password</label>
+                        <input type="password2" id="password2" autocomplete>
+                    </div>
+                    <input type="submit" value="submit" class="submit-btn">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="https://kit.fontawesome.com/87a6ca7818.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
